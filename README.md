@@ -6,3 +6,4 @@
 <h1 align="center">
    Gatsby
 </h1>
+<p>Gatsby is a React-based open source framework with performance, scalability and security built-in.</p>
