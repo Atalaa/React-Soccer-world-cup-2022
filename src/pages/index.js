@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import FlipCountdown from "@rumess/react-flip-countdown"
 
 const IndexPage = () => (
   <Layout>
@@ -11,27 +12,30 @@ const IndexPage = () => (
     <section className="py-5 text-center container">
       <div className="row py-lg-5">
         <div className="col-lg-6 col-md-8 mx-auto">
-          <h1 className="fw-light">Countdown to Qatar 2022</h1>
-          {/* <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p> */}
           <StaticImage
-            src="../images/gatsby-trophy.png"
-            // src="../images/gatsby-astronaut.png"
-            width={300}
+            src="../images/gatsby-trophyy.png"
+            width={280}
             quality={95}
             formats={["AUTO", "WEBP"]}
-            alt="A Gatsby astronaut"
-            className="img-fluid"
+            alt="A Trophy of Soccer World Cup"
+            className="img-fluid mb-5"
+          />
+          <FlipCountdown
+            hideYear
+            size="small"
+            endAt={"2022-11-20 11:00:00"} // Date/Time
+            endAtZero
           />
         </div>
       </div>
-      <div className="row">
+      {/* <div className="row">
         <Link to="/about/" className="btn btn-primary my-2">
           About
         </Link>
         <Link to="/page-2/" className="btn btn-secondary my-2">
           Go to page 2
         </Link>
-      </div>
+      </div> */}
     </section>
   </Layout>
 )
