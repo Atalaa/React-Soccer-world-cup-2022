@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 const Stadiums = () => {
   return (
     <Layout>
-      <Seo title="Page Stadiums" />
+      <Seo title="Stadiums" />
       <div>
         <h1>Stadiums</h1>
         <p>You just hit a Stadiums</p>

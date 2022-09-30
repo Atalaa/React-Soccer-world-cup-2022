@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 const Quizz = () => {
   return (
     <Layout>
-      <Seo title="Page Quizz" />
+      <Seo title="Quizz" />
       <div>
         <h1>Quizz</h1>
         <p>You just hit a Quizz</p>
