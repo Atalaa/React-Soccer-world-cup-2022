@@ -10,7 +10,11 @@ const Groups = ({ data }) => {
       <div>
         <h1>Groups</h1>
         <p>You just hit a group</p>
-        <p>{data.site.siteMetadata.description}</p>
+        <ul>
+          {data.allCountry.nodes.map((e, index) => (
+            <li key={index}>{e.name.common}</li>
+          ))}
+        </ul>
       </div>
     </Layout>
   )
@@ -19,9 +23,12 @@ export default Groups
 
 export const query = graphql`
   query {
-    site {
-      siteMetadata {
-        description
+    allCountry {
+      nodes {
+        name {
+          common
+        }
+        flag
       }
     }
   }
