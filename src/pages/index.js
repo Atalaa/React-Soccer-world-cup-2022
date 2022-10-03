@@ -8,7 +8,7 @@ import FlipCountdown from "@rumess/react-flip-countdown"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <section className="py-5 text-center container">
+    <section className="py-5 text-center container-fluid">
       <div className="row py-lg-5">
         <div className="col-lg-6 col-md-8 mx-auto">
           <StaticImage
