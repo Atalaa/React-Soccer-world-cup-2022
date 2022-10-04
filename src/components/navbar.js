@@ -35,7 +35,7 @@ const Navbar = ({ siteTitle }) => {
               <ExactNavLink to="/">Home</ExactNavLink>
             </li>
             <li className="nav-item">
-              <ExactNavLink to="/groups">Groups</ExactNavLink>
+              <ExactNavLink to="/thegroups">Groups</ExactNavLink>
             </li>
             <li className="nav-item">
               <ExactNavLink to="/stadiums">Stadiums</ExactNavLink>
