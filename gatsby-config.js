@@ -12,6 +12,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `thegroups`,
+        path: `${__dirname}/src/pages/thegroups`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
@@ -35,6 +42,13 @@ module.exports = {
       options: {
         name: `groupC`,
         path: `${__dirname}/src/groupC`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `groupD`,
+        path: `${__dirname}/src/groupD`,
       },
     },
     `gatsby-transformer-sharp`,

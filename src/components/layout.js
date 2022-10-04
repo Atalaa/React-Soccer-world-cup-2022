@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./navbar"
-import "./layout.scss"
+import "../styles/global.scss"
 
 //children represents anything nested inside <Layout></Layout> component.
 const Layout = ({ children }) => {
